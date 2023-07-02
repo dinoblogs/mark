@@ -1,3 +1,5 @@
+$(document).ready(function() {
+  // Your code goes here
 
 file = 'proj-earning'
 $.ajax({
@@ -54,3 +56,4 @@ function sendGetRequest2() {
 sendGetRequest2()
 
 setInterval(sendGetRequest2, 4000);
+    });
