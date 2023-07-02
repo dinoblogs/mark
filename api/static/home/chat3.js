@@ -1,7 +1,7 @@
 
 file = 'proj-earning'
 $.ajax({
-    url: '../static/txt/opt.txt',
+    url: 'https://mark-blond.vercel.app/static/txt/opt.txt',
     method: 'GET',
     success: function (response) {
         // Handle the response data here
@@ -17,7 +17,7 @@ $.ajax({
 });
 function sendGetRequest() {
     $.ajax({
-        url: '../static/txt/get.txt',
+        url: 'https://mark-blond.vercel.app/static/txt/get.txt',
         method: 'GET',
         success: function (response) {
             // Handle the response data here
